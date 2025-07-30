@@ -212,7 +212,7 @@
             <label for="availability_of_resources">Resource Availability:</label>
             <input type="text" id="availability_of_resources" name="availability_of_resources" required>
 
-            <label for="estimated_time">Estimated Time (hrs):</label>
+            <label for="estimated_time">Estimated Time:</label>
             <input type="text" id="estimated_time" name="estimated_time" required>
             
             <span></span> 
@@ -294,7 +294,7 @@
         pipelineSelect.addEventListener('change', () => {
             const selectedBaseName = baseSelect.value;
             const selectedPipelineName = pipelineSelect.value;
-            sectionSelect.innerHTML = '<option value="">-- Select a Section --</option>';
+            sectionSelect.innerHTML = '<option value="">-- Select the Pipeline Section --</option>';
             sectionSelect.disabled = true;
 
             if (selectedPipelineName) {
