@@ -47,7 +47,7 @@
             <input type="text" id="estimated_time" name="estimated_time" required>
             
             <span></span> <!-- Empty span for grid alignment -->
-            <button type="submit">Submit Entry</button>
+            <button type="submit">Submit</button>
         </form>
         <div id="message"></div>
     </div>
@@ -76,7 +76,7 @@
 
         // 2. Populate the first dropdown (Bases)
         function populateBases(bases) {
-            baseSelect.innerHTML = '<option value="">-- Select a Base --</option>';
+            baseSelect.innerHTML = '<option value="">-- Select a Maintenance Base --</option>';
             bases.forEach(base => {
                 const option = document.createElement('option');
                 option.value = base.name;
@@ -90,7 +90,7 @@
             const selectedBaseName = baseSelect.value;
             // Reset and disable child dropdowns
             pipelineSelect.innerHTML = '<option value="">-- Select a Pipeline --</option>';
-            sectionSelect.innerHTML = '<option value="">-- Select a Section --</option>';
+            sectionSelect.innerHTML = '<option value="">-- Select a Pipeline Section --</option>';
             pipelineSelect.disabled = true;
             sectionSelect.disabled = true;
 
