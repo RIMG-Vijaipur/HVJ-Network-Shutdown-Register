@@ -64,7 +64,8 @@
 
         // 1. Fetch data when the page loads
         document.addEventListener('DOMContentLoaded', () => {
-            fetch('data.json')
+            const dataUrl = `${window.location.pathname.replace('index.html', '')}data.json`;
+            fetch(dataUrl)
                 .then(response => response.json())
                 .then(data => {
                     dataStore = data;
