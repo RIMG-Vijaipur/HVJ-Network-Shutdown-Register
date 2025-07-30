@@ -1,0 +1,1166 @@
+{
+  "maintenanceBases": [
+    {
+      "name": "HAZIRA",
+      "pipelines": [
+        {
+          "name": "36\" HAZIRA - VIJAIPUR",
+          "sections": [
+            "36\" x 81.697 km HAZIRA - JHAGADIA",
+            "36\" x 69.903 km JHAGADIA - VAGHODIA"
+          ]
+        },
+        {
+          "name": "12\" HAZIRA - KAWAS",
+          "sections": [
+            "12\" x 7.5 km HAZIRA - KAWAS"
+          ]
+        },
+        {
+          "name": "30\" ONGC - HAZIRA",
+          "sections": [
+            "30\" x 0.8 km ONGC - HAZIRA - I",
+            "30\" x 0.8 km ONGC - HAZIRA - II"
+          ]
+        },
+        {
+          "name": "12\" HAZIRA - GGL TAPOFF",
+          "sections": [
+            "12\" x 1.02 km HAZIRA - GGL TAPOFF"
+          ]
+        },
+        {
+          "name": "12\" HAZIRA - ESSAR CONNECTIVITY",
+          "sections": [
+            "12\" x 0.55 km HAZIRA - ESSAR CONNECTIVITY"
+          ]
+        },
+        {
+          "name": "16\" CAIRN SUVALI - NTPC KAWAS",
+          "sections": [
+            "16\" x 10.48 km CAIRN SUVALI - NTPC KAWAS"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UNDERA",
+      "pipelines": [
+        {
+          "name": "36\" HAZIRA - VIJAIPUR",
+          "sections": [
+            "36\" x 69.903 km JHAGADIA - VAGHODIA"
+          ]
+        },
+        {
+          "name": "42\" DAHEJ - VIJAIPUR -1",
+          "sections": [
+            "42\" x 86.225 km VEMAR - SHERPURA",
+            "42\" x 99.239 km SHERPURA - JHABUA"
+          ]
+        },
+        {
+          "name": "48\" DAHEJ - VIJAIPUR - II",
+          "sections": [
+            "48\" x 86.225 km VEMAR - SHERPURA",
+            "48\" x 99.239 km SHERPURA - JHABUA"
+          ]
+        },
+        {
+          "name": "16\" GREP-RIL PIPELINE (SGPL), UNDERA",
+          "sections": [
+            "16\" x 30.018 km GREP-RIL PIPELINE (SGPL), UNDERA"
+          ]
+        },
+        {
+          "name": "18\" VAGHODIA - RIL VADODARA",
+          "sections": [
+            "18\" x 32.44 km VAGHODIA - RIL VADODARA"
+          ]
+        },
+        {
+          "name": "36\" VAGHODIA-GREP VAGHODIA",
+          "sections": [
+            "36\" x 3.01 km IP2 VAGHODIA-GREP VAGHODIA-HVJ",
+            "36\" x 3.04 km GREP VAGHODIA-IP2 VAGHODIA-HVJ",
+            "36\" x 2.94 km LSV-5 VAGHODIA-GREP VAGHODIA-DVPL",
+            "36\" x 2.95 km GREP VAGHODIA-LSV-5 VAGHODIA-DVPL"
+          ]
+        },
+        {
+          "name": "4\" LMC-SANGHAVI FORGING",
+          "sections": [
+            "4\" x 1.1 km LMC-SANGHAVI FORGING"
+          ]
+        },
+        {
+          "name": "8\" RIL TERMINAL TO GIPCL TERMINAL HVJ SPUR LINE",
+          "sections": [
+            "8\" x 4.93 km RIL TERMINAL TO GIPCL TERMINAL HVJ SPUR LINE"
+          ]
+        },
+        {
+          "name": "8\" IPCL - GIPCL (RLNG)",
+          "sections": [
+            "8\" x 5.993 km IPCL - GIPCL (RLNG) - 8IN X KM + 10IN X KM"
+          ]
+        },
+        {
+          "name": "12\" VAGHODIA-RIL (DASRATH TAP OFF) - GSFC",
+          "sections": [
+            "12\" x 1.057 km VAGHODIA-RIL (DASRATH TAP OFF) GSFC"
+          ]
+        },
+        {
+          "name": "4\" TOP (DVPL-1) VARSADA CHAR RASTA - GUJARAT FLOROCHEM (GFL)",
+          "sections": [
+            "4\" x 7.018 km TOP (DVPL-1) VARSADA CHAR RASTA - GUJARAT FLOROCHEM (GFL)"
+          ]
+        },
+        {
+          "name": "4\" VAGODIA COMPR. - APOLLO TYRE",
+          "sections": [
+            "4\" x 1.7 km VAGODIA COMPR. - APOLLO TYRE"
+          ]
+        },
+        {
+          "name": "4\" AMALIYARA TOP (VAGHODIA - RIL VADODARA) - RYKER BASE",
+          "sections": [
+            "4\" x 21 km AMALIYARA TOP (VAGHODIA - RIL VADODARA) - RYKER BASE"
+          ]
+        },
+        {
+          "name": "4\" TOP (RYKER BASE) - ROCKMAN INDUSTRIES",
+          "sections": [
+            "4\" x 0.34 km TOP (RYKER BASE) - ROCKMAN INDUSTRIES"
+          ]
+        },
+        {
+          "name": "6\" DASRATH TAP OFF (SGPL) - GSFC",
+          "sections": [
+            "6\" x 1.057 km DASRATH TAP OFF (SGPL) - GSFC"
+          ]
+        },
+        {
+          "name": "8\" TOP (DVPL-1 VARASADA) - SIESCAM FLAT GLASS (SFGIL), HALOL",
+          "sections": [
+            "8\" x 16.529 km DT (SIESSCAM FLAT GLASS, HALOL) - SIESSCAM FLAT GLASS, HALOL",
+            "8\" x 0.196 km TOP (DVPL-1 VARASADA) - DT (SIESSCAM FLAT GLASS, HALOL)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JHABUA",
+      "pipelines": [
+        {
+          "name": "36\" HAZIRA - VIJAIPUR",
+          "sections": [
+            "36\" x 78.189 km VAGHODIA - D. BARIA",
+            "36\" x 70.139 km D. BARIA - JHABUA"
+          ]
+        },
+        {
+          "name": "42\" DAHEJ - VIJAIPUR - I",
+          "sections": [
+            "42\" x 99.239 km SHERPURA - JHABUA"
+            "42\" x 83.465 km JHABUA - K. BARODA"
+          ]
+        },
+        {
+          "name": "48\" DAHEJ - VIJAIPUR - II",
+          "sections": [
+            "48\" x 99.239 km SHERPURA - JHABUA",
+            "48\" x 83.465 km JHABUA - K. BARODA"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KHERA",
+      "pipelines": [
+        {
+          "name": "36\" HAZIRA - VIJAIPUR",
+          "sections": [
+            "36\" x 83.745 km JHABUA - K. BARODA",
+            "36\" x 90.086 km K. BARODA - KHERA",
+            "36\" x 82.299 km KHERA - GORAKHPURA"
+          ]
+        },
+        {
+          "name": "42\" DAHEJ - VIJAIPUR -1",
+          "sections": [
+            "42\" x 83.465 km JHABUA - K. BARODA"
+          ]
+        },
+        {
+          "name": "42\" DAHEJ - VIJAIPUR - I",
+          "sections": [
+            "42\" x 90.224 km K. BARODA - KHERA",
+            "42\" x 82.463 km KHERA - GORAKHPURA"
+          ]
+        },
+        {
+          "name": "48\" DAHEJ - VIJAIPUR - II",
+          "sections": [
+            "48\" x 83.465 km JHABUA - K. BARODA",
+            "48\" x 90.224 km K. BARODA - KHERA",
+            "48\" x 82.463 km KHERA - GORAKHPURA"
+          ]
+        },
+                {
+          "name": "4\" TOP (SV MAKRAWAN, HVJ)- GGL CGD, NAGDA, RATLAM",
+          "sections": [
+            "4\" x 0.127 km TOP (SV MAKRAWAN, HVJ)- GGL CGD, NAGDA, RATLAM"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VIJAIPUR",
+      "pipelines": [
+        {
+          "name": "36\" HAZIRA - VIJAIPUR",
+          "sections": [
+            "36\" x 85.777 km GORAKHPURA - VIJAIPUR"
+          ]
+        },
+        {
+          "name": "42\" DAHEJ - VIJAIPUR - I",
+          "sections": [
+            "42\" x 85.414 km GORAKHPURA - VIJAIPUR"
+          ]
+        },
+        {
+          "name": "48\" DAHEJ - VIJAIPUR - II",
+          "sections": [
+            "48\" x 85.414 km GORAKHPURA - VIJAIPUR"
+          ]
+        },
+        {
+          "name": "30\" VIJAIPUR - AURAIYA",
+          "sections": [
+            "30\" x 79.231 km VIJAIPUR - PIRONTH"
+          ]
+        },
+        {
+          "name": "36\" VIJAIPUR - AURAIYA (VAPL)",
+          "sections": [
+            "36\" x 79.265 km VIJAIPUR - IP-01 PIRONTH"
+          ]
+        },
+        {
+          "name": "18\" VIJAIPUR-NFL",
+          "sections": [
+            "18\" x 3.653 km VIJAIPUR-NFL"
+          ]
+        },
+        {
+          "name": "4\" VIJAIPUR - GGL CNG STATION",
+          "sections": [
+            "4\" x 2.5 km VIJAIPUR - GGL CNG STATION"
+          ]
+        },
+        {
+          "name": "36\" VIJAIPUR - DADRI (GREP)",
+          "sections": [
+            "36\" x 79.3 km VIJAIPUR - CHITARA",
+            "36\" x 90.7 km CHITARA - BURDHA"
+          ]
+        },
+        {
+          "name": "48\" VIJAIPUR - DADRI (VDPL)",
+          "sections": [
+            "48\" x 107.35 km VIJAIPUR - KULVARA",
+            "48\" x 120.85 km KULVARA - KAILARAS"
+          ]
+        },
+        {
+          "name": "18\" VIJAIPUR-BORERI-GADEPAN",
+          "sections": [
+            "18\" x 69.734 km VIJAIPUR - ATTRU"
+          ]
+        },
+        {
+          "name": "18\" VKPL - I",
+          "sections": [
+            "18\" x 140 km VIJAIPUR - GADEPAN (VKPL-I)"
+          ]
+        },
+        {
+          "name": "18\" VKPL-1 II",
+          "sections": [
+            "18\" x 112.289 km VIJAIPUR - BORERI (VKPL-II)"
+          ]
+        },
+        {
+          "name": "4\" TOP (IP-01 VIJAIPUR -KULVARA VDPL) - THINK GAS SHIVPURI",
+          "sections": [
+            "4\" x 0.466 km TOP (IP-01 VIJAIPUR -KULVARA VDPL) - THINK GAS SHIVPURI"
+          ]
+        },
+	{
+          "name": "4\" TOP (IP-06 GORAKHPURA) - TGPL CGD, BHOPAL",
+          "sections": [
+            "4\" x 0.08 km TOP (IP-06 GORAKHPURA) - TGPL CGD, BHOPAL"
+          ]
+        },
+        {
+          "name": "4\" TOP (SV-1 SINGHWASA GREP) - IOCL CGD, GUNA",
+          "sections": [
+            "4\" x 0.086 km TOP (SV-1 SINGHWASA GREP) - IOCL CGD, GUNA"
+          ]
+        },
+        {
+          "name": "6\" GPU VIJAIPUR-IOCL BP LPG PIPELINE",
+          "sections": [
+            "6\" x 2.515 km GPU VIJAIPUR-IOCL BP LPG PIPELINE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DAHEJ",
+      "pipelines": [
+        {
+          "name": "42\" DAHEJ - VIJAIPUR - I",
+          "sections": [
+            "42\" x 83.759 km DAHEJ - VEMAR"
+          ]
+        },
+        {
+          "name": "48\" DAHEJ - VIJAIPUR - II",
+          "sections": [
+            "48\" x 83.759 km DAHEJ - VEMAR"
+          ]
+        },
+        {
+          "name": "4\" DVPL-1 DAHEJ TO GFL",
+          "sections": [
+            "4\" x 1.2 km DVPL-1 DAHEJ TO GFL"
+          ]
+        },
+        {
+          "name": "12\" DVPL-1 DAHEJ TO GSPL",
+          "sections": [
+            "12\" x 0.059 km DVPL-1 DAHEJ TO GSPL"
+          ]
+        },
+        {
+          "name": "8\" DVPL-2 (CH. 16.6 KM) - FILATEX",
+          "sections": [
+            "8\" x 3.2 km DVPL-2 (CH. 16.6 KM) - FILATEX"
+          ]
+        },
+        {
+          "name": "4\" TOP (KILBURN) - UPL DAHEJ",
+          "sections": [
+            "4\" x 10.45 km TOP (CH. DVPL-II) - UPL DAHEJ"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BHARUCH",
+      "pipelines": [
+        {
+          "name": "14\" VEMAR(IP) – NTPC, BHARUCH",
+          "sections": [
+            "14\" x 24.06 km VEMAR(IP) – NTPC TERMINAL"
+          ]
+        },
+        {
+          "name": "6\" DVPL DAHEJ TO GACL",
+          "sections": [
+            "6\" x 1 km DVPL-I DAHEJ TAP OFF TO GACL TERMINAL"
+          ]
+        },
+        {
+          "name": "4\" GACL TO HINDALCO",
+          "sections": [
+            "4\" x 7.3 km GACL TAP OFF ON 6 INCH.TO HINDALCO TERMINAL"
+          ]
+        },
+        {
+          "name": "10\" ΤΟΡ (ΑΝΚOT DVPL-1) - GNVFCL",
+          "sections": [
+            "10\" x 17.79 km TOP (ANKOT DVPL-1) - GNVFCL RT",
+            "10\" x 0.365 km GNVFCL RT - GNFC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PITHAMPUR",
+      "pipelines": [
+        {
+          "name": "12\" SANWER - DEWAS",
+          "sections": [
+            "12\" x 19.654 km SANWER - DEWAS"
+          ]
+        },
+        {
+          "name": "12\" IDS-1, PITHAMPUR-IDS-2, PITHAMPUR",
+          "sections": [
+            "12\" x 11.148 km IDS-1, PITHAMPUR-IDS-2, PITHAMPUR"
+          ]
+        },
+        {
+          "name": "4\" TOP FROM 12\" LINE-M/S BRIDGE STONE TYRES",
+          "sections": [
+            "4\" x 0.398 km TOP FROM 12\" LINE-M/S BRIDGE STONE TYRES"
+          ]
+        },
+        {
+          "name": "4\" TOP FROM 12\" LINE-M/S CIPLA",
+          "sections": [
+            "4\" x 1.5 km TOP FROM 12\" LINE-M/S CIPLA"
+          ]
+        },
+        {
+          "name": "4\" LINE EXTENDED FROM CIPLA-M/S SYMBIOTIC",
+          "sections": [
+            "4\" x 0.25 km LINE EXTENDED FROM CIPLA-M/S SYMBIOTIC"
+          ]
+        },
+        {
+          "name": "4\" TOP FROM 12\" LINE-M/S PRATIBHA SYNTEX",
+          "sections": [
+            "4\" x 0.259 km TOP FROM 12\" LINE-M/S PRATIBHA SYNTEX"
+          ]
+        },
+        {
+          "name": "4\" IDS-2-M/S SHIVANGI STEEL",
+          "sections": [
+            "4\" x 6.634 km IDS-2-M/S SHIVANGI STEEL"
+          ]
+        },
+        {
+          "name": "4\" TOP FROM 4\" LINE-M/S SRF",
+          "sections": [
+            "4\" x 1.237 km TOP FROM 4\" LINE-M/S SRF"
+          ]
+        },
+        {
+          "name": "4\" TOP FROM 4\" LINE-M/S MITTAL CORP-1",
+          "sections": [
+            "4\" x 1.436 km TOP FROM 4\" LINE-M/S MITTAL CORP-1"
+          ]
+        },
+        {
+          "name": "4\" LINE EXTENDED FROM MC-1-M/S MITTAL CORP-2",
+          "sections": [
+            "4\" x 0.82 km LINE EXTENDED FROM MC-1-M/S MITTAL CORP-2"
+          ]
+        },
+        {
+          "name": "4\" TOP FROM 4\" LINE-M/S ANANTH STEEL",
+          "sections": [
+            "4\" x 0.105 km TOP FROM 4\" LINE-M/S ANANTH STEEL"
+          ]
+        },
+        {
+          "name": "4\" TOP FROM 4\" LINE-M/S KESAR STEEL",
+          "sections": [
+            "4\" x 0.02 km TOP FROM 4\" LINE-M/S KESAR STEEL"
+          ]
+        },
+        {
+          "name": "4\" IDS-2-M/S NATIONAL STEEL",
+          "sections": [
+            "4\" x 16.72 km IDS-2-M/S NATIONAL STEEL"
+          ]
+        },
+        {
+          "name": "4\" NATIONAL STEEL-M/S RUCHI STRIP",
+          "sections": [
+            "4\" x 0.023 km NATIONAL STEEL-M/S RUCHI STRIP"
+          ]
+        },
+        {
+          "name": "4\" TAPPING FROM NATIONAL STEEL LINE-M/S JAIDEEP ISPAT",
+          "sections": [
+            "4\" x 0.3 km TAPPING FROM NATIONAL STEEL LINE-M/S JAIDEEP ISPAT"
+          ]
+        },
+        {
+          "name": "4\" TAPPING FROM NATIONAL STEEL LINE-M/S RATHI IRON",
+          "sections": [
+            "4\" x 0.2 km TAPPING FROM NATIONAL STEEL LINE-M/S RATHI IRON"
+          ]
+        },
+        {
+          "name": "4\" TAPPING FROM NATIONAL STEEL LINE-M/S BANSHALI",
+          "sections": [
+            "4\" x 0.4 km TAPPING FROM NATIONAL STEEL LINE-M/S BANSHALI"
+          ]
+        },
+        {
+          "name": "4\" TAPPING FROM NATIONAL STEEL LINE-M/S MID INDIA (SHREYAM POWER)",
+          "sections": [
+            "4\" x 1.2 km TAPPING FROM NATIONAL STEEL LINE-M/S MID INDIA"
+          ]
+        },
+        {
+          "name": "4\" TAPPING FROM IDS-1/3-M/S PORWAL AUTO",
+          "sections": [
+            "4\" x 0.435 km TAPPING FROM IDS-1/3-M/S PORWAL AUTO"
+          ]
+        },
+        {
+          "name": "4\" TAPPING FROM IDS-1/3-M/S EICHER MOTORS",
+          "sections": [
+            "4\" x 4.143 km TAPPING FROM IDS-1/3-M/S EICHER MOTORS"
+          ]
+        },
+        {
+          "name": "4\" TOP FROM EICHER LINE-M/S FORCE MOTORS",
+          "sections": [
+            "4\" x 0.123 km TOP FROM EICHER LINE-M/S FORCE MOTORS"
+          ]
+        },
+        {
+          "name": "4\" TOP FROM EICHER LINE-M/S RAJRATAN GLOBAL",
+          "sections": [
+            "4\" x 1.057 km TOP FROM EICHER LINE-M/S RAJRATAN GLOBAL"
+          ]
+        },
+        {
+          "name": "4\" TAPPING FROM DEWAS-M/S HR JHONSON",
+          "sections": [
+            "4\" x 1.355 km TAPPING FROM DEWAS-M/S HR JHONSON"
+          ]
+        },
+        {
+          "name": "4\" TOP FROM HR JONSON LINE-M/S ROCA",
+          "sections": [
+            "4\" x 0.4 km TOP FROM HR JONSON LINE-M/S ROCA"
+          ]
+        },
+        {
+          "name": "10\" TOP FROM 16\" DIA JIPPL-M/S AVANTIKA GAS",
+          "sections": [
+            "10\" x 5.767 km TOP FROM 16\" DIA JIPPL-M/S AVANTIKA GAS"
+          ]
+        },
+        {
+          "name": "4\" TAPPING EXTENDED FROM KESAR-M/S TANEJA STEELS",
+          "sections": [
+            "4\" x 0.815 km TAPPING EXTENDED FROM KESAR-M/S TANEJA STEELS"
+          ]
+        },
+        {
+          "name": "16\" JAGOTI - PITHAMPUR (JIPPL)",
+          "sections": [
+            "16\" x 90.733 km JAGOTI - PITHAMPUR (JIPPL)"
+          ]
+        },
+        {
+          "name": "8\" TAPPING FROM TOP-1 OF JIPPL -M/S AGL, UJJAIN",
+          "sections": [
+            "8\" x 5.803 km TAPPING FROM TOP-1 OF JIPPL -M/S AGL, UJJAIN"
+          ]
+        },
+        {
+          "name": "4\" MID (SHREYAM POWER) TO CNG AGL",
+          "sections": [
+            "4\" x 0.277 km MID (SHREYAM POWER) TO CNG AGL"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JHANSI",
+      "pipelines": [
+        {
+          "name": "30\" VIJAIPUR - AURAIYA",
+          "sections": [
+            "30\" x 98.561 km PIRONTH - RAKSHA",
+            "30\" x 84.934 km RAKSHA - KHERI"
+          ]
+        },
+        {
+          "name": "36\" VIJAIPUR - AURAIYA (VAPL)",
+          "sections": [
+            "36\" x 98.646 km IP-01 PIRONTH - IP-02 RAKSHA",
+            "36\" x 85.502 km IP-02 RAKSHA - IP-03 KHERI"
+          ]
+        },
+        {
+          "name": "4\" TOP (IP02 RAKSHA) - ATGL CGD (JHANSI, BHIND, LALITPUR, DATIA, JALAUN)",
+          "sections": [
+            "4\" x 0.364 km TOP (IP02 RAKSHA) - ATGL CGD (JHANSI, BHIND, LALITPUR, DATIA, JALAUN)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DIBIYAPUR",
+      "pipelines": [
+        {
+          "name": "30\" VIJAIPUR - AURAIYA",
+          "sections": [
+            "30\" x 88.771 km KHERI - AURAIYA"
+          ]
+        },
+        {
+          "name": "36\" VIJAIPUR - AURAIYA (VAPL)",
+          "sections": [
+            "36\" x 88.739 km IP-03 KHERI - AURAIYA (DIBIYAPUR)"
+          ]
+        },
+        {
+          "name": "18\" AURAIYA - JAGDISHPUR",
+          "sections": [
+            "18\" x 71.048 km AURAIYA - SACHENDI"
+          ]
+        },
+        {
+          "name": "24\" AURAIYA - SACHENDI (SV-2 ASANDA)",
+          "sections": [
+            "24\" x 46.205 km AURAIYA - SACHENDI (SV-2 ASANDA)"
+          ]
+        },
+        {
+          "name": "24\" AURAIYA - PHULPUR",
+          "sections": [
+            "24\" x 71.029 km AURAIYA - SACHENDI"
+          ]
+        },
+        {
+          "name": "30\" DIBIYAPUR-PATA",
+          "sections": [
+            "30\" x 5.5 km DIBIYAPUR-PATA"
+          ]
+        },
+        {
+          "name": "30\" PATA-DIBIYAPUR",
+          "sections": [
+            "30\" x 5.5 km PATA-DIBIYAPUR"
+          ]
+        },
+        {
+          "name": "12\" DIBIYAPUR-NTPC DIBIYAPUR",
+          "sections": [
+            "12\" x 2.08 km DIBIYAPUR-NTPC DIBIYAPUR"
+          ]
+        },
+        {
+          "name": "24\" AURAIYA - BABRALA - DADRI",
+          "sections": [
+            "24\" x 62.887 km AURAIYA - MALIKPUR",
+            "24\" x 81.696 km MALIKPUR - PIPRAULA"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KANPUR",
+      "pipelines": [
+        {
+          "name": "18\" AURAIYA - JAGDISHPUR",
+          "sections": [
+            "18\" x 76.569 km SACHENDI - MAURWAN"
+          ]
+        },
+        {
+          "name": "24\" AURAIYA - PHULPUR",
+          "sections": [
+            "24\" x 104.001 km SACHENDI - THULENDI"
+          ]
+        },
+        {
+          "name": "12\" SACHENDI - KFCL",
+          "sections": [
+            "12\" x 13.7 km SACHENDI - KFCL"
+          ]
+        },
+        {
+          "name": "8\" SACHENDI - KANPUR",
+          "sections": [
+            "8\" x 18.25 km SACHENDI - KANPUR"
+          ]
+        },
+        {
+          "name": "4\" TOP (RR-50-SACHENDI) - TGPL CGD, KANPUR DEHAT",
+          "sections": [
+            "4\" x 0.27 km TOP (RR-50-SACHENDI) - TGPL CGD, KANPUR DEHAT"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LUCKNOW",
+      "pipelines": [
+        {
+          "name": "18\" AURAIYA - JAGDISHPUR",
+          "sections": [
+            "18\" x 76.569 km SACHENDI - MAURWAN"
+          ]
+        },
+        {
+          "name": "24\" AURAIYA - PHULPUR",
+          "sections": [
+            "24\" x 104.001 km SACHENDI - THULENDI"
+          ]
+        },
+        {
+          "name": "8\" MAURAWAN- LUCKNOW",
+          "sections": [
+            "8\" x 37.44 km MAURAWAN- LUCKNOW"
+          ]
+        },
+        {
+          "name": "4\" TOP (SV06, SACHENDI - MAURWAN) - GREEN GAS LIMITED CGD, GA (UNNAO)",
+          "sections": [
+            "4\" x 0.105 km TOP (SV06, SACHENDI - MAURWAN) GREEN GAS LIMITED CGD, GA (UNNAO)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JAGDISHPUR",
+      "pipelines": [
+        {
+          "name": "18\" AURAIYA - JAGDISHPUR",
+          "sections": [
+            "18\" x 70.188 km MAURWAN - JAGDISHPUR"
+          ]
+        },
+        {
+          "name": "24\" AURAIYA - PHULPUR",
+          "sections": [
+            "24\" x 139.85 km THULENDI - PHULPUR"
+          ]
+        },
+        {
+          "name": "18\" THULENDI-PHULPUR",
+          "sections": [
+            "18\" x 139.981 km THULENDI-PHULPUR"
+          ]
+        },
+        {
+          "name": "4\" JAGDISHPUR LMC",
+          "sections": [
+            "4\" x 3.12 km IIPL - WIPE",
+            "4\" x 0.02 km WIPE PL TOP TO FARCO",
+            "4\" x 1.832 km IIPL - BHEL",
+            "4\" x 0.415 km TOP (TGL RT) - GREEN GAS LIMITED CGD, GA (AYODHYA, SULTANPUR)"
+          ]
+        },
+        {
+          "name": "8\" JAGDISHPUR LMC",
+          "sections": [
+            "8\" x 0.638 km IIPL - BPCL CGD, AMETHI",
+            "8\" x 0.171 km BPCL CGD - TORRENT GAS CGD, BARABANKI GONDA GA"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PHULPUR",
+      "pipelines": [
+        {
+          "name": "24\" AURAIYA - PHULPUR",
+          "sections": [
+            "24\" x 139.85 km THULENDI - PHULPUR"
+          ]
+        },
+        {
+          "name": "18\" THULENDI-PHULPUR",
+          "sections": [
+            "18\" x 139.981 km THULENDI-PHULPUR"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SHAHJAHANPUR",
+      "pipelines": [
+        {
+          "name": "12\" PIPROLA -KSFL",
+          "sections": [
+            "12\" x 0.55 km PIPROLA -KSFL"
+          ]
+        },
+        {
+          "name": "24\" AURAIYA - BABRALA - DADRI",
+          "sections": [
+            "24\" x 81.696 km MALIKPUR - PIPRAULA",
+            "24\" x 89.526 km PIPRAULA - AONLA"
+          ]
+        },
+        {
+          "name": "4\" TOP (SV07, MALIKPUR - PIPRAULA) - HPCL CGD, GA (HARDOI, FARRUKHABAD)",
+          "sections": [
+            "4\" x 1.424 km TOP (SV07, MALIKPUR - PIPRAULA) - HPCL CGD, GA (HARDOI, ETAH, FARRUKHABAD)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AONLA",
+      "pipelines": [
+        {
+          "name": "6\" SV-11 CHOUBARI-BAREILLY CGS",
+          "sections": [
+            "6\" x 9.662 km SV-11 CHOUBARI-BAREILLY CGS"
+          ]
+        },
+        {
+          "name": "24\" AURAIYA - BABRALA - DADRI",
+          "sections": [
+            "24\" x 89.526 km PIPRAULA - AONLA",
+            "24\" x 81.941 km AONLA - BABRALA"
+          ]
+        },
+        {
+          "name": "4\" TOP (SV CHOUBARI, PIPRAULA-AONLA) - HPCL CGD (BAREILLY)",
+          "sections": [
+            "4\" x 0.95 km TOP (SV CHOUBARI, PIPRAULA-AONLA) - HPCL CGD (BAREILLY)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MALANPUR",
+      "pipelines": [
+        {
+          "name": "36\" VIJAIPUR - DADRI (GREP)",
+          "sections": [
+            "36\" x 90.7 km CHITARA - BURDHA"
+          ]
+        },
+        {
+          "name": "36\" VIJAIPUR - DADRI (GREP)",
+          "sections": [
+            "36\" x 82.85 km BURDHA - SONE KA GURJA"
+          ]
+        },
+        {
+          "name": "48\" VIJAIPUR - DADRI (VDPL)",
+          "sections": [
+            "48\" x 120.85 km KULVARA - KAILARAS",
+            "48\" x 106.491 km KAILARAS - BAJHERA"
+          ]
+        },
+        {
+          "name": "12\" KAILARAS - MALANPUR (KMPL)",
+          "sections": [
+            "12\" x 71.55 km KAILARAS - MALANPUR (KMPL)"
+          ]
+        },
+        {
+          "name": "10\" BANMORE-GWALIOR",
+          "sections": [
+            "10\" x 11.87 km BANMORE-GWALIOR",
+            "10\" x 0.06 km TOP (BANMORE-GWALIOR) - AGL RAIRU"
+          ]
+        },
+        {
+          "name": "6\" MALANPUR -CADBURY",
+          "sections": [
+            "6\" x 5.174 km MALANPUR -CADBURY"
+          ]
+        },
+        {
+          "name": "4\" MALANPUR -CADBURY",
+          "sections": [
+            "4\" x 0.068 km CADBURY PL TOP TO GOADREJ SOAP",
+            "4\" x 0.029 km CADBURY PL TOP TO JAMUNA AUTO",
+            "4\" x 0.232 km CADBURY PL TOP TO SURYA ROSHNI",
+            "4\" x 0.84 km CADBURY PL TOP TO SUPREME"
+          ]
+        },
+        {
+          "name": "4\" MALANPUR - SURYA MAST",
+          "sections": [
+            "4\" x 0.13 km MALANPUR - SURYA MAST"
+          ]
+        },
+        {
+          "name": "4\" MALANPUR-GRAINTECH",
+          "sections": [
+            "4\" x 1.475 km MALANPUR-GRAINTECH",
+            "4\" x 0.012 km GRAINTECH PL TOP TO TEVA",
+            "4\" x 0.457 km GRAINTECH TO VIKRAM FOOD"
+          ]
+        },
+        {
+          "name": "4\" BANMORE -MAGNUM",
+          "sections": [
+            "4\" x 5.578 km BANMORE -MAGNUM"
+          ]
+        },
+        {
+          "name": "6\" MALANPUR-HOTLINE",
+          "sections": [
+            "6\" x 3.925 km MALANPUR - HOTLINE"
+          ]
+        },
+        {
+          "name": "4\" MALANPUR -HOTLINE",
+          "sections": [
+            "4\" x 1.307 km HOTLINE PL TOP TO MCPL",
+            "4\" x 0.064 km TOP (HOTLINE-MCPL) - SRF MALANPUR"
+          ]
+        },
+        {
+          "name": "48\" IP-2 KAILARAS - KAILARAS COMP. STATION",
+          "sections": [
+            "48\" x 0.5 km IP-2 KAILARAS - KAILARAS COMP. STATION 36\"X48\""
+          ]
+        },
+        {
+          "name": "48\" KAILARAS COMP. STATION - IP-2 KAILARAS",
+          "sections": [
+            "48\" x 0.5 km KAILARAS COMP. STATION - IP-2 KAILARAS_36\"X48\""
+          ]
+        },
+        {
+          "name": "8\" TOP (MALANPUR DT, KMPL) - ADANI TOTAL GAS CGD, BHIND",
+          "sections": [
+            "8\" x 3.145 km TOP (MALANPUR DT, KMPL) - ADANI TOTAL GAS CGD, BHIND"
+          ]
+        },
+        {
+          "name": "4\" TOP (SV-01 THARA, KMPL) - IOCL CGD, MORENA",
+          "sections": [
+            "4\" x 0.258 km TOP (SV-01 THARA, KMPL) - IOCL CGD, MORENA"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AGRA",
+      "pipelines": [
+        {
+          "name": "36\" VIJAIPUR - DADRI (GREP)",
+          "sections": [
+            "36\" x 82.85 km BURDHA - SONE KA GURJA",
+            "36\" x 82.291 km SONE KA GURJA - BAJHERA",
+            "36\" x 90.5 km BAJHERA - JATAULI"
+          ]
+        },
+        {
+          "name": "48\" VIJAIPUR - DADRI (VDPL)",
+          "sections": [
+            "48\" x 106.491 km KAILARAS - BAJHERA",
+            "48\" x 122.136 km BAJHERA - CHHAINSA"
+          ]
+        },
+        {
+          "name": "10\" BAJHERA-AGRA",
+          "sections": [
+            "10\" x 52.7 km BAJHERA-AGRA"
+          ]
+        },
+        {
+          "name": "12\" BAJHERA-AGRA",
+          "sections": [
+            "12\" x 52.7 km BAJHERA-AGRA"
+          ]
+        },
+        {
+          "name": "10\" AGRA-FIROZABAD",
+          "sections": [
+            "10\" x 34.3 km AGRA-FIROZABAD"
+          ]
+        },
+        {
+          "name": "8\" AGRA-FIROZABAD",
+          "sections": [
+            "8\" x 34.9 km AGRA-FIROZABAD"
+          ]
+        },
+        {
+          "name": "14\" LALPUR-MATHURA",
+          "sections": [
+            "14\" x 12.5 km LALPUR-MATHURA"
+          ]
+        },
+        {
+          "name": "10\" IBRAHIMPUR-DHOLPUR",
+          "sections": [
+            "10\" x 30.5 km IBRAHIMPUR-DHOLPUR"
+          ]
+        },
+        {
+          "name": "4\" CHATTA -SOUMYA GAS",
+          "sections": [
+            "4\" x 0.79 km CHATTA -SOUMYA GAS"
+          ]
+        },
+        {
+          "name": "4\" TOP (RT DHOLPUR) - DCGDPL CGD, DHOLPUR GA",
+          "sections": [
+            "4\" x 0.427 km TOP (RT DHOLPUR) - DCGDPL CGD, DHOLPUR GA"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FARIDABAD",
+      "pipelines": [
+        {
+          "name": "36\" VIJAIPUR - DADRI (GREP)",
+          "sections": [
+            "36\" x 73.65 km JATAULI - DADRI"
+          ]
+        },
+        {
+          "name": "48\" VIJAIPUR - DADRI (VDPL)",
+          "sections": [
+            "48\" x 122.136 km BAJHERA - CHHAINSA",
+            "48\" x 43.62 km CHHAINSA - DADRI"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DADRI",
+      "pipelines": [
+        {
+          "name": "36\" VIJAIPUR - DADRI (GREP)",
+          "sections": [
+            "36\" x 73.65 km JATAULI - DADRI"
+          ]
+        },
+        {
+          "name": "48\" VIJAIPUR - DADRI (VDPL)",
+          "sections": [
+            "48\" x 43.62 km CHHAINSA - DADRI"
+          ]
+        },
+        {
+          "name": "24\" AURAIYA - BABRALA - DADRI",
+          "sections": [
+            "24\" x 105.167 km BABRALA - DADRI"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BABRALA",
+      "pipelines": [
+        {
+          "name": "24\" AURAIYA - BABRALA - DADRI",
+          "sections": [
+            "24\" x 81.941 km AONLA - BABRALA",
+            "24\" x 105.167 km BABRALA - DADRI"
+          ]
+        },
+        {
+          "name": "4\" TOP SHIWALI (BABRALA-DADRI) - IOAGPL SHIWALI",
+          "sections": [
+            "4\" x 0.522 km TOP SHIWALI (BABRALA-DADRI) - IOAGPL CGD, SHIWALI"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KOTA",
+      "pipelines": [
+        {
+          "name": "18\" VIJAIPUR-BORERI-GADEPAN",
+          "sections": [
+            "18\" x 40.279 km VIJAIPUR - ATTRU",
+	    "18\" x 40.279 km ATTRU - BORERI",
+            "18\" x 29.17 km BORERI - GADEPAN"
+          ]
+        },
+        {
+          "name": "18\" VKPL - I",
+          "sections": [
+            "18\" x 140 km VIJAIPUR - GADEPAN (VKPL-I)"
+          ]
+        },
+        {
+          "name": "18\" VKPL - II",
+          "sections": [
+            "18\" x 112.289 km VIJAIPUR - BORERI (VKPL-II)",
+            "18\" x 29.697 km BORERI - GADEPAN (VKPL-II)"
+          ]
+        },
+        {
+          "name": "12\" BORERI-ANTA",
+          "sections": [
+            "12\" x 14.5 km BORERI-ANTA"
+          ]
+        },
+        {
+          "name": "16\" GADEPAN-NAYANOHRA",
+          "sections": [
+            "16\" x 30 km GADEPAN-NAYANOHRA"
+          ]
+        },
+        {
+          "name": "8\" NAYANAHORA-SRIRAM",
+          "sections": [
+            "8\" x 8 km NAYANAHORA-SRIRAM"
+          ]
+        },
+        {
+          "name": "4\" GADEPAN-SAMCORE",
+          "sections": [
+            "4\" x 30 km GADEPAN-SAMCORE"
+          ]
+        },
+        {
+          "name": "4\" TOP (IP-BORERI) - TGPL CGD, BARAN",
+          "sections": [
+            "4\" x 0.2 km TOP (IP-BORERI) - TGPL CGD, BARAN"
+          ]
+        },
+        {
+          "name": "4\" TOP (NAYANOHRA, VKPL) - TORRENT GAS CGD, KOTA, BARAN",
+          "sections": [
+            "4\" x 0.657 km TOP (NAYANOHRA, VKPL) - TORRENT GAS CGD, KOTA, BARAN"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CHITTAURGARH",
+      "pipelines": [
+        {
+          "name": "16\" KOTA (NAYANOHRA) - CHITTAURGARH",
+          "sections": [
+            "16\" x 72.61 km KOTA (NAYANOHRA) - BIJAULIYA",
+            "16\" x 58 km BIJAULIYA - KANDA"
+          ]
+        },
+        {
+          "name": "12\" KANDA - BILIYA (CHITTAURGARH)",
+          "sections": [
+            "12\" x 40 km KANDA - BILIYA (CHITTAURGARH)"
+          ]
+        },
+        {
+          "name": "4\" BILIYA (CHITTAURGARH) - HZL",
+          "sections": [
+            "4\" x 2.146 km BILIYA (CHITTAURGARH) - HZL"
+          ]
+        },
+        {
+          "name": "4\" TOP (RT-BILIYA) - AGL BILIYA",
+          "sections": [
+            "4\" x 0.559 km TOP (RT-BILIYA) - AGL BILIYA"
+          ]
+        },
+        {
+          "name": "4\" TOP (TOT-KANDA) - AGL KANDA",
+          "sections": [
+            "4\" x 0.89 km TOP (TOT-KANDA) - AGL KANDA"
+          ]
+        },
+        {
+          "name": "4\" TOP (SV01C, KANDA-BILIYA) - ASAHI GLASS, CHITTORGARH",
+          "sections": [
+            "4\" x 10.314 km TOP (SV01C, KANDA-BILIYA) - ASAHI GLASS, CHITTORGARH"
+          ]
+        }
+      ]
+    }
+  ]
+}

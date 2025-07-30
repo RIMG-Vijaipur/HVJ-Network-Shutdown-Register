@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pipeline Shutdown Register</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 2em; background-color: #f4f4f9; }
+        h1 { color: #333; }
+        .form-container { max-width: 700px; margin: auto; padding: 2em; background-color: #fff; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
+        .form-grid { display: grid; grid-template-columns: 200px 1fr; gap: 1.2em; align-items: center; }
+        label { font-weight: bold; text-align: right; color: #555; }
+        input, select, textarea { width: 100%; padding: 0.8em; border: 1px solid #ccc; border-radius: 4px; font-size: 1rem; }
+        button { grid-column: 2; width: 150px; padding: 0.8em; border: none; background-color: #0078d4; color: white; font-size: 1rem; border-radius: 4px; cursor: pointer; }
+        button:hover { background-color: #005a9e; }
+        #message { margin-top: 1.5em; font-weight: bold; text-align: center; }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Pipeline Shutdown Register</h1>
+        <form id="shutdownForm" class="form-grid">
+            
+            <label for="maintenance_base">Maintenance Base:</label>
+            <select id="maintenance_base" name="maintenance_base" required></select>
+
+            <label for="pipeline">Pipeline:</label>
+            <select id="pipeline" name="pipeline" required disabled></select>
+
+            <label for="pipeline_section">Pipeline Section:</label>
+            <select id="pipeline_section" name="pipeline_section" required disabled></select>
+
+            <label for="job_location">Job Location:</label>
+            <input type="text" id="job_location" name="job_location" required>
+
+            <label for="description_of_job">Description of Job:</label>
+            <textarea id="description_of_job" name="description_of_job" rows="4" required></textarea>
+
+            <label for="action_required">Action Required:</label>
+            <textarea id="action_required" name="action_required" rows="4" required></textarea>
+
+            <label for="availability_of_resources">Resource Availability:</label>
+            <input type="text" id="availability_of_resources" name="availability_of_resources" required>
+
+            <label for="estimated_time">Estimated Time:</label>
+            <input type="text" id="estimated_time" name="estimated_time" required>
+            
+            <span></span> <!-- Empty span for grid alignment -->
+            <button type="submit">Submit Entry</button>
+        </form>
+        <div id="message"></div>
+    </div>
+
+    <script>
+        // Form element references
+        const baseSelect = document.getElementById('maintenance_base');
+        const pipelineSelect = document.getElementById('pipeline');
+        const sectionSelect = document.getElementById('pipeline_section');
+        const shutdownForm = document.getElementById('shutdownForm');
+        const messageDiv = document.getElementById('message');
+
+        let dataStore = {}; // To hold the data from data.json
+
+        // 1. Fetch data when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('data.json')
+                .then(response => response.json())
+                .then(data => {
+                    dataStore = data;
+                    populateBases(data.maintenanceBases);
+                })
+                .catch(error => console.error('Error loading data:', error));
+        });
+
+        // 2. Populate the first dropdown (Bases)
+        function populateBases(bases) {
+            baseSelect.innerHTML = '<option value="">-- Select a Base --</option>';
+            bases.forEach(base => {
+                const option = document.createElement('option');
+                option.value = base.name;
+                option.textContent = base.name;
+                baseSelect.appendChild(option);
+            });
+        }
+
+        // 3. Event listener for the Base dropdown
+        baseSelect.addEventListener('change', () => {
+            const selectedBaseName = baseSelect.value;
+            // Reset and disable child dropdowns
+            pipelineSelect.innerHTML = '<option value="">-- Select a Pipeline --</option>';
+            sectionSelect.innerHTML = '<option value="">-- Select a Section --</option>';
+            pipelineSelect.disabled = true;
+            sectionSelect.disabled = true;
+
+            if (selectedBaseName) {
+                const selectedBase = dataStore.maintenanceBases.find(b => b.name === selectedBaseName);
+                if (selectedBase && selectedBase.pipelines) {
+                    populatePipelines(selectedBase.pipelines);
+                    pipelineSelect.disabled = false;
+                }
+            }
+        });
+
+        // 4. Populate the second dropdown (Pipelines)
+        function populatePipelines(pipelines) {
+            pipelines.forEach(pipeline => {
+                const option = document.createElement('option');
+                option.value = pipeline.name;
+                option.textContent = pipeline.name;
+                pipelineSelect.appendChild(option);
+            });
+        }
+
+        // 5. Event listener for the Pipeline dropdown
+        pipelineSelect.addEventListener('change', () => {
+            const selectedBaseName = baseSelect.value;
+            const selectedPipelineName = pipelineSelect.value;
+            sectionSelect.innerHTML = '<option value="">-- Select a Section --</option>';
+            sectionSelect.disabled = true;
+
+            if (selectedPipelineName) {
+                const selectedBase = dataStore.maintenanceBases.find(b => b.name === selectedBaseName);
+                const selectedPipeline = selectedBase.pipelines.find(p => p.name === selectedPipelineName);
+                if (selectedPipeline && selectedPipeline.sections) {
+                    populateSections(selectedPipeline.sections);
+                    sectionSelect.disabled = false;
+                }
+            }
+        });
+        
+        // 6. Populate the third dropdown (Sections)
+        function populateSections(sections) {
+            sections.forEach(section => {
+                const option = document.createElement('option');
+                option.value = section;
+                option.textContent = section;
+                sectionSelect.appendChild(option);
+            });
+        }
+
+        // 7. Handle the form submission
+        shutdownForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            messageDiv.textContent = 'Submitting...';
+            messageDiv.style.color = 'black';
+
+            const formData = new FormData(shutdownForm);
+            const data = Object.fromEntries(formData.entries());
+
+            // PASTE YOUR POWER AUTOMATE URL HERE
+            const powerAutomateUrl = 'https://prod-25.centralindia.logic.azure.com:443/workflows/d09b4b59159a4eb7bc16c0cf8706e477/triggers/manual/paths/invoke?api-version=2016-06-01';
+
+            fetch(powerAutomateUrl, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data),
+            })
+            .then(response => {
+                if (response.ok) {
+                    messageDiv.textContent = 'Success! Your entry has been submitted.';
+                    messageDiv.style.color = 'green';
+                    shutdownForm.reset();
+                    // Reset dropdowns to initial state
+                    pipelineSelect.disabled = true;
+                    sectionSelect.disabled = true;
+                } else {
+                    messageDiv.textContent = 'Error: Submission failed. Please try again.';
+                    messageDiv.style.color = 'red';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                messageDiv.textContent = 'A network error occurred. Please check your connection and try again.';
+                messageDiv.style.color = 'red';
+            });
+        });
+
+    </script>
+</body>
+</html>
